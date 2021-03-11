@@ -1,0 +1,257 @@
+@font-face{
+	font-family: myFont;
+	src: url(/font/OpenSansCondensed-Bold.ttf);
+}
+body{
+	font-family: "myFont", sans-serif;
+}
+h1, h2, h3, h4, h5{
+	color: #000;
+	font-weight: 700;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration-line:none;
+	color: #fff;
+}
+/****************************************** Shared Style ********************************** */
+.row{
+	margin-right: 0;
+}
+.custom-container{
+	padding: 5% 7% ;
+	text-align: center;
+}
+.heading{
+	margin-bottom: 3%;
+	font-size: 3rem;
+}
+.heading-4{
+	font-size: 1.3rem;
+}
+/*fav-icon edit*/
+.custom-btn{
+	background-color: #2a7886;
+	border:none;
+	color: #fff;
+}
+/****************************************** Header ********************************** */
+#header{
+	background-color: #512b58;
+	color: #fff;
+	padding: 0.5% 7% 0;
+}
+.header-content{
+  color: #E59B31;
+}
+.questions{
+	display: inline-block;
+}
+.header-link{
+	color: #ffffff;
+	margin: 5px;
+}
+.header-link:hover{
+	color:#E59B31;
+	text-decoration: none;
+}
+.header-media{
+	width: max-content;
+}
+/****************************************** navigation bar ********************************** */
+#navbar{
+	background-color: #2a7886;
+	padding: 0 7%;
+}
+.logo{
+   width: 8rem;
+   color:#fff;
+   
+}
+/****************************************** Slider ********************************** */
+#slider{
+	color: #fff;
+	font-size: 2rem;
+     text-align: center;
+}
+.slider-item{
+	height: 32rem;
+     position: relative;
+}
+.slider-content{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	bottom: 0%;
+	right: 0%;
+	background-color: rgba(44, 120, 108, 0.4);
+	padding-top: 5%;
+}
+.slider-conent-heading{
+	font-size: 3.5rem;
+}
+.custom-indicator{
+	background-color: #E59B31;
+	width: 4rem;
+	height: 4rem;
+}
+/****************************************** About Upskills ********************************** */
+#about{
+	background-color: #f1f3f4;
+	padding: 0% 8% 0 8%;
+	font-size: 1.2rem;
+	line-height: 2;
+}
+.about-img{
+	width: 100%;
+}
+/****************************************** services ********************************** */
+#services{ 
+     font-weight: 500;
+}
+.services-container{
+	 background-color: #79bac1;
+	 color: #000;
+	 padding: 5%;
+}
+.services-card{
+	background-color:#f1f3f4;
+	height: 22rem;
+	padding:3% 0.5%;
+	 margin: 5px;
+	line-height: 1.5;
+    transition: .5s;
+}
+.services-icon{
+	color: #512b58;
+	font-size: 4rem;
+	padding: 0;
+}
+/*hover card*/
+.services-card:hover {
+	background-color:#512b58;
+	color: #fff;
+	-webkit-transform: scale(1.02);
+	   -moz-transform: scale(1.02);
+	    -ms-transform: scale(1.02);
+	     -o-transform: scale(1.02);
+	        transform: scale(1.02);
+	        z-index: 2;
+}
+.services-card:hover .services-icon{
+	color:#fff;
+}
+.services-card:hover .card-title{
+	color: #fff;
+	margin-bottom: 0;
+}
+/****************************************** Offerd Courses ********************************** */
+#Offers{
+	background-color: #2a7886;	
+}
+.course-card{
+     border: 5px solid rgba(44, 120, 108, 0.8);
+     transition: 0.6s;
+}
+.course-card-img{
+	width:100%;
+	height: 13.5rem;
+}
+.tab-link{
+     color: #000;
+}
+.tab-card-heading{
+   font-size: 1.1rem;
+}
+.card-link{
+	   color: #E59B31;
+	   font-size: 1.5rem;
+	   transition: 0.5s;
+}
+/*hover card*/
+.course-card:hover{
+    box-shadow: 0px 3px 3px 3px #eee;
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+.course-card:hover .card-link{
+    color: #000;
+}
+/************************************* milestone ********************************/
+#milestone{
+	background-color: #f1f3f4;
+}
+.milestone-content{
+	text-align: left;
+     padding: 10% 0;
+}
+.milestone-content > blockquote{
+	font-weight: 700;
+	margin: 5% 0;
+}
+.the-video{
+	width:100%;
+}
+/*events*/
+#events{
+	background-color: #79bac1;
+}
+.the-event{
+	display: inline-block;
+	padding: 0 5% 0 2%;
+	border: 2px solid #E59B31;
+}
+.event-img{
+	width: 8rem;
+	margin: 0 0 8% 0;
+}
+.event-content{
+	display: inline-block;
+	text-align: right;
+	margin: 20px;
+}
+/*Newsletter*/
+#Newsletter{
+	background-color: rgba(248,180,5,0.1);
+}
+.form-input{
+	width: 50%;
+	margin: auto;
+}
+/*contact-us*/
+#contact-us{
+	background-color: #2a7886;
+	font-size: 2rem;
+	font-weight: 600;
+}
+/*footer*/
+#footer{
+	background-color: #512b58;
+	color: #E59B31;
+}
+#footer a {
+   color: #E59B31;
+   font-size: 1rem;
+   text-align: left;
+}
+#footer a:hover{
+	color:#fff;
+}
+.map{
+	width: 100%;
+	border:1px solid #E59B31;
+}
+.footer-icons{
+	text-align: right;
+	margin: 5% 0 0 0 ;
+}
+.footer-icon{
+	font-size: 1.5rem;
+     margin: 0 2%;
+	color:#fff;
+}
+.footer-icon:hover{
+	color: #E59B31;
+}
